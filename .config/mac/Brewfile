@@ -1,0 +1,55 @@
+# tapping some stuff
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask"
+tap "homebrew/core"
+# tap to use 'brew cu' to update all mas apps
+tap "buo/cask-upgrade"
+
+# set arguments for all 'brew install --cask' commands
+cask_args appdir: "~/Applications", require_sha: true
+
+# install amc app store cli
+brew "mas"
+
+# installing apps
+brew "ffmpeg"
+brew "gh"
+brew "github-keygen"
+brew "gnupg"
+brew "htop"
+brew "imagemagick"
+brew "neovim"
+brew "pipes-sh"
+brew "pwgen"
+brew "rlwrap"
+brew "spaceship"
+brew "starship"
+brew "tree"
+brew "yt-dlp"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
+cask "adguard"
+cask "appcleaner"
+cask "bitwarden"
+cask "font-fira-code-nerd-font"
+cask "font-fira-mono-for-powerline"
+cask "font-jetbrains-mono"
+cask "font-menlo-for-powerline"
+cask "iterm2"
+cask "languagetool"
+cask "syncthing"
+cask "tailscale"
+cask "the-unarchiver"
+cask "visual-studio-code"
+cask "duckduckgo"
+cask "firefox"
+cask "discord"
+cask "signal"
+cask "ultimaker-cura"
+cask "veracrypt"
+
+# python development
+# brew  "python@3.9" 
+# brew "python@3.10"
