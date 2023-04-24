@@ -24,6 +24,8 @@ export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 
 # ----- Some Programming stuff
 export DOTNET_ROOT="/opt/homebrew/opt/dotnet/libexec"
+# Java Things
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"
 
 # ----- ZSH Plugins
 # Install them with homebrew
@@ -205,6 +207,3 @@ eval "$(starship init zsh)"
 # autoload -U promptinit; promptinit
 # prompt spaceship
 
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
-
-source /Users/cblte/.docker/init-zsh.sh || true # Added by Docker Desktop
